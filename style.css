@@ -25,6 +25,8 @@ header {
 footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 5rem;
-
+    position: fixed;    
+    bottom: 1rem;
+    width: 98%;
+    text-align: center;
 }
