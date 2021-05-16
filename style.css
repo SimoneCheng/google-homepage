@@ -7,6 +7,32 @@ header {
     justify-content: space-between;
 }
 
+.style-for-a {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: black;
+    vertical-align: middle;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
 .columnFlex {
     display: flex;
     flex-direction: column;
@@ -15,7 +41,33 @@ header {
 }
 
 .container {
-    padding: 1rem;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.container1 {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 1rem;
+    width: 60%;
+}
+
+.searchbox {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 44px;
+    border: none;
+}
+
+.searchbox-img {
+    display: flex;
+    align-items: center;
 }
 
 .center {
@@ -29,4 +81,7 @@ footer {
     bottom: 1rem;
     width: 98%;
     text-align: center;
+    font-size: 15px;
+    background-color: #E0E0E0;
+}
 }
